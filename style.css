@@ -1,5 +1,27 @@
 body{
-    background-color: rgb(219, 219, 219);
+    background-color: #dbdbdb;
+}
+
+#web-pages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 10px 0 10px 0;
+
+}
+
+#web-pages a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 1px black;
+    font-size: ;
+    font-family: ;
+    font-style: ;
+    font-weight: ;
+
 }
 
 #web-title {
@@ -12,6 +34,7 @@ body{
     font-style: italic;
     text-shadow: 0 0 2px black;
     color: white;
+    outline-style:;
 }
 
 #brick-title-img {
@@ -32,13 +55,25 @@ body{
     
 }
 
-#MOTW {
+#web-title h1 {
     font-size: 60px;
     font-weight: ;
     font-family: ;
     font-style: ;
     text-shadow: 0 0 1px black;
     color: white;
+}   
+
+#motw {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 1px black;
+    font-size: 32px;
+    font-weight: ;
+    font-style: ;
+    font-family: ;
 }
 
 .link-color {
@@ -84,15 +119,24 @@ body{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    border: 6px solid black;
+    border: 6px solid #dfbc7b;
     border-radius: 10px;
     width: fit-content;
     block-size: fit-content;
+    margin: auto;
 }
 
-.mocimg:nth-child(2) {
-    border-left: 6px solid black;
-    border-right: 6px solid black;
+.mocimg img:nth-child(1) {
+    border-radius: 3px;
+}
+
+.mocimg img:nth-child(2) {
+    border-left: 6px solid #888181;
+    border-right: 6px solid #888181;
+}
+
+.mocimg img:nth-child(3) {
+    border-radius: 3px;
 }
 
 .moc-desc-title {
