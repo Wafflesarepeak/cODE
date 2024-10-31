@@ -1,3 +1,120 @@
 body{
-    background-color: pink;
+    background-color: rgb(219, 219, 219);
+}
+
+#web-title {
+    display: flex;
+    justify-content: start;
+    flex-direction: space-around;
+    font-size: 40px;
+    font-weight: ;
+    font-family: ;
+    font-style: italic;
+    text-shadow: 0 0 2px black;
+    color: white;
+}
+
+#brick-title-img {
+    width: 70px;
+    height: 70px;
+    margin: 35px 0 ;
+
+}
+
+#title {
+    margin: 40px 10px 0 40px;
+    font-size: 60px;
+    font-weight: ;
+    font-family: ;
+    font-style: ;
+    text-shadow: 0 0 1px black;
+    color: white;
+    
+}
+
+#MOTW {
+    font-size: 60px;
+    font-weight: ;
+    font-family: ;
+    font-style: ;
+    text-shadow: 0 0 1px black;
+    color: white;
+}
+
+.link-color {
+    color: #94bcd1;
+    text-shadow: 0 0 1px black;
+    
+}
+
+.article-title {
+    color: white;
+    font: ;
+    font-size: 25px;
+    font-family: ;
+    font-weight: ;
+    font-style: ;
+    text-shadow: 0 0 1px black ;
+    text-align: center;
+
+}
+
+.article-title2 {
+    color: white;
+    font: ;
+    font-size: 18px;
+    font-family: ;
+    font-weight: ;
+    font-style: ;
+    text-shadow: 0 0 1px black ;
+    text-align: center;
+    margin-top: -20px;
+
+}
+
+.mocimg img {
+    height: auto;
+    width: 25%;
+    max-width: 400px;
+    min-width: 400px;
+}
+
+.mocimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 6px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    block-size: fit-content;
+}
+
+.mocimg:nth-child(2) {
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+}
+
+.moc-desc-title {
+    color: white;
+    font: ;
+    font-size: 25px;
+    font-family: ;
+    font-weight: ;
+    font-style: ;
+    text-shadow: 0 0 1px black ;
+    text-align: center; 
+}
+
+.paragraph {
+    color: white;
+    font: ;
+    font-size: 20px;
+    font-family: ;
+    font-weight: 600;
+    font-style: ;
+    text-shadow: 0 0 1px black ;
+    text-align: center;
+    margin: 0 0 100px 0;
+    
 }
