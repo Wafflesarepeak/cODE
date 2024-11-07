@@ -119,7 +119,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    border: 6px solid #dfbc7b;
+    border: 6px solid #383838;
     border-radius: 10px;
     width: fit-content;
     block-size: fit-content;
@@ -131,8 +131,8 @@ body{
 }
 
 .mocimg img:nth-child(2) {
-    border-left: 6px solid #888181;
-    border-right: 6px solid #888181;
+    border-left: 6px solid #383838;
+    border-right: 6px solid #383838;
 }
 
 .mocimg img:nth-child(3) {
