@@ -162,3 +162,13 @@ body{
     margin: 0 0 100px 0;
     
 }
+
+.potat {
+    background: rgb(207, 207, 207);
+    height: 300px;
+}
+
+.socials img{
+    height: 40px;
+    width: 40px;
+}
